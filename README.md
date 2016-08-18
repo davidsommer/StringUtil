@@ -1,2 +1,27 @@
 # StringUtil
 Diverse Java StringUtil funktions
+* listToSequence(Collection<? extends Object> l, String delim)
+* listToMethodSequence(Collection<? extends Object> l, String delim, String methodName) 
+* cleanToLowerCaseAndNumbers
+* isDouble(String s)
+* empty(String s)
+* isNotEmpty(String s)
+* duration(long millis)
+* getYoutubeIframe(String youtubeVideoLink)
+* getYoutubeId(String youtubeVideoLink)
+* getExcelColumnName(int number)
+* getExcelColumnNumber(String columnName)
+* formatThousandSplitString(String zahl)
+* formatThousandSplitLong(long zahl)
+* validateLength(String s, int maxLength, String name)
+* stripExtension
+* containsUmlaut(String input)
+* replaceUmlaut(String input)
+* removeHtml(String html) 
+* isValidEmailAddress(String email)
+* getExtension (final String str)
+* encodeShopware5Url(String url)
+* md5ThePhpWay(String input)
+* getFolderFromMd5(int folderStart, String md5)
+* getShortString(String input, int width)
+* removeBracketsWithContent(String s)
